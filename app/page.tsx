@@ -51,9 +51,9 @@ const Home = () => {
         }
       </ul>
 
-      <div>
-        <p>Behati</p>
-      </div>
+      <footer className="h-60 w-full bg-black justify-center">
+        <p className="text-sm text-white">Behati</p>
+      </footer>
     </div>
   )
 }
