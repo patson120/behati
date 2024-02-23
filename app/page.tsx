@@ -42,8 +42,7 @@ const Home = () => {
             <li key={user.id}>{user.username}</li>
           ))
         }
-
-        <h3 className="text-xl font-satoshi font-bold my-4">Cars</h3>
+        <h3 className="text-xl font-satoshi font-bold my-4">Cars({cars.length})</h3>
         {
           cars.map((car: any) => (
             <li key={car._id}>{car.model.libelle} * {car._id}</li>
