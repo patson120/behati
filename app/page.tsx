@@ -7,7 +7,6 @@ import { useLayoutEffect, useState } from "react"
 import { database } from "@/config/firebase"
 
 
-
 const Home = () => {
 
   const [users, setUsers] = useState([])
@@ -51,6 +50,10 @@ const Home = () => {
           ))
         }
       </ul>
+
+      <div>
+        <p>Behati</p>
+      </div>
     </div>
   )
 }
