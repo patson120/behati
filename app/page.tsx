@@ -51,7 +51,7 @@ const Home = () => {
         }
       </ul>
 
-      <footer className="h-60 w-full bg-black justify-center">
+      <footer className="h-32 w-full bg-black flex justify-center items-center">
         <p className="text-sm text-white">Behati</p>
       </footer>
     </div>
