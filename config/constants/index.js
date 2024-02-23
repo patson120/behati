@@ -1,4 +1,4 @@
-
+// Settings
 export default {
     API_KEY: "AIzaSyCRcdmH2_dDPSOxTTCbDrNtX-_aTKqlrsM",
     AUTH_DOMAIN: "opep-4b097.firebaseapp.com",
