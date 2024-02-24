@@ -16,14 +16,13 @@ const Footer = () => {
               width={100}
               height={50}
               alt='Behati logo'
-              src={'/assets/images/Behati-logo-white.png'}
+              src='/assets/images/Behati-logo-white.png'
             />
             <p className='text-sm text-white'>
               La marque qui vous propose des produits agroalimentaires 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
             </p>
           </div>
           <div className="flex space-x-4 text-white">
-            {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
             <Link href="#" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
             <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
             <Link href="#" className="nav_item_menu">POINTS DE VENTE</Link>

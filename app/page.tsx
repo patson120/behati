@@ -35,10 +35,14 @@ const Home = () => {
 
   return (
     <div>
-      <section className="">
-        <Header />
-      </section>
+      <Header />
       <Hero />
+      {/* Seiction A */}
+      <section className="py-24">
+        <div className="secondary-green w-72 h-72">
+
+        </div>
+      </section>
       <Footer />
     </div>
   )
