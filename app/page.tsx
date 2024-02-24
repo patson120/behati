@@ -39,8 +39,10 @@ const Home = () => {
       <Hero />
       {/* Seiction A */}
       <section className="py-24">
-        <div className="secondary-green w-72 h-72">
-
+        <div className="secondary-green w-72 h-72 px-4 py-3">
+          <h2 className="text-2xl font-bold">
+            Behati, le meilleur du terroir et offrez-vous les produits les plus raffinés.
+          </h2>
         </div>
       </section>
       <Footer />

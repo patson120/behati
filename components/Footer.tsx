@@ -1,15 +1,11 @@
 
 
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-
 const Footer = () => {
 
   const date = new Date()
   return (
     <footer className='black_color'>
-      <section className='mx-auto max-w-7xl h-44 flex flex-row justify-center items-center'>
+      {/* <section className='mx-auto max-w-7xl h-44 flex flex-row justify-center items-center'>
         <div className='flex justify-between items-center'>
           <div className='flex flex-col gap-3 w-1/3'>
             <Image
@@ -43,7 +39,7 @@ const Footer = () => {
             Conditions d'utilisation
           </p>
         </div>
-      </section>
+      </section> */}
     </footer>
   )
 }
