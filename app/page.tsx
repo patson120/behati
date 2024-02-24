@@ -4,7 +4,7 @@ import CONSTANTS from "@/utils/constants"
 import { collection, getDocs, query } from "firebase/firestore"
 import { useLayoutEffect, useState } from "react"
 
-import { Footer, Header, Hero } from "@/components"
+import { CustomButton, Footer, Header, Hero } from "@/components"
 import { database } from "@/config/firebase"
 
 
@@ -39,11 +39,23 @@ const Home = () => {
       <Hero />
       {/* Section A */}
       <section className="py-24 flex flex-1 flex-row justify-end">
-        <div className="secondary-green w-[485px] h-[385px] px-8 py-3 flex justify-center items-center">
-          <div>
+        <div className="secondary-green w-2/5 h-[390px] px-8 py-4 flex justify-center items-center">
+          <div className="flex flex-col gap-4">
             <h2 className="text-3xl font-semibold">
               Behati, le meilleur du terroir et offrez-vous les produits les plus raffinés.
             </h2>
+            <p>
+              Behati est une entreprise agroalimentaire qui vous propose des produits 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
+            </p>
+            <p>
+              Nous sommes nés d’une passion commune pour la nature, la santé et la gastronomie. 
+              Nous voulons vous faire découvrir les saveurs authentiques et les bienfaits des produits locaux, tout en respectant l’environnement et les producteurs.
+            </p>
+            <CustomButton
+              title='Commander un produit'
+              containerStyle='black_bgcolor w-[200px] h-12 rounded-full text-white text-sm font-bold px-4 mt-2'
+              handleClick={()=> {}}
+            />
           </div>
 
         </div>
