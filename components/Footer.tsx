@@ -14,8 +14,8 @@ const Footer = () => {
             <Image
               width={100}
               height={50}
-              alt='Behati logo'
-              src='/assets/images/Behati-logo-white.png'
+              alt="Behati logo"
+              src="/assets/images/Behati-logo-white.png"
             />
             <p className='text-sm text-white'>
               La marque qui vous propose des produits agroalimentaires 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
@@ -32,9 +32,9 @@ const Footer = () => {
       </section>
       <section className='h-12 bg-white flex flex-1 justify-center items-center'>
         <div className='mx-auto max-w-7xl flex flex-1 flex-row justify-between items-center'>
-          {/* <p className='text-md'>
+          <p className='text-md'>
             {date.getFullYear()} Tous droits reservés
-          </p> */}
+          </p>
           <p className='text-md'>
             Politiques de confidentialité
           </p>

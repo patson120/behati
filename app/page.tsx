@@ -39,10 +39,13 @@ const Home = () => {
       <Hero />
       {/* Section A */}
       <section className="py-24 flex flex-1 flex-row justify-end">
-        <div className="secondary-green w-[485px] h-[485px] px-4 py-3">
-          <h2 className="text-xl font-semibold">
-            Behati, le meilleur du terroir et offrez-vous les produits les plus raffinés.
-          </h2>
+        <div className="secondary-green w-[485px] h-[385px] px-8 py-3 flex justify-center items-center">
+          <div>
+            <h2 className="text-3xl font-semibold">
+              Behati, le meilleur du terroir et offrez-vous les produits les plus raffinés.
+            </h2>
+          </div>
+
         </div>
         <div className="h-auto w-1/2 flex-shrink-0">
           <img src="/assets/images/rectangle_5.png"
