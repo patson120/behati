@@ -4,6 +4,7 @@ import CONSTANTS from "@/utils/constants"
 import { collection, getDocs, query } from "firebase/firestore"
 import { useLayoutEffect, useState } from "react"
 
+import { Header, Hero } from "@/components"
 import { database } from "@/config/firebase"
 
 
@@ -13,7 +14,7 @@ const Home = () => {
   const [cars, setCars] = useState<any>([])
 
   const getData = async () => {
-    
+
     const data = await fetch(`${CONSTANTS.BASE_URL}/persons`)
     const response = await data.json();
     setUsers(response.users)
@@ -28,33 +29,20 @@ const Home = () => {
   }
 
   useLayoutEffect(() => {
-    getData();
+    // getData();
   }, [])
+
 
   return (
     <div>
-      <h1 className="text-3xl font-bold">Bienvenu sur Behati</h1>
-
-      <h3 className="text-xl font-satoshi font-bold my-4">Users</h3>
-      <ul>
-        {
-          users.map((user: any) => (
-            <li key={user.id}>{user.username}</li>
-          ))
-        }
-        <h3 className="text-xl font-satoshi font-bold my-4">Cars({cars.length})</h3>
-        {
-          cars.map((car: any) => (
-            <li key={car._id}>{car.model.libelle} * {car._id}</li>
-          ))
-        }
-      </ul>
-
-      <footer className="h-32 w-full bg-black flex justify-center items-center">
-        <p className="text-sm text-white">Behati</p>
-      </footer>
+      <section className="">
+        <Header />
+      </section>
+      <Hero />
     </div>
   )
 }
 
 export default Home
+
+

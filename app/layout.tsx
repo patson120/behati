@@ -9,7 +9,7 @@ export const metadata = {
 }
 
 type Props = {
-    children:  React.JSX.Element
+    children:  React.ReactNode
 }
  
 const RoutLayout: React.FC<Props> = ({ children }) => {
