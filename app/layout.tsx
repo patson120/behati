@@ -4,7 +4,7 @@ import React from 'react'
 
 
 export const metadata = {
-    title: "Behati",
+    title: "Behati | Home",
     description: "Behati est une plateforme de vente de produit naturel cultivés sur le sol Camerounais", 
 }
 
