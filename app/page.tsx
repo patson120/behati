@@ -39,7 +39,7 @@ const Home = () => {
       <Hero />
       {/* Section A */}
       <section className="py-24 flex flex-1 flex-row justify-end">
-        <div className="secondary-green w-2/5 h-[390px] px-8 py-4 flex justify-center items-center">
+        <div className="secondary-green w-2/5 h-[390px] px-8 py-4 flex justify-center items-center -space-x-96">
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl font-semibold">
               Behati, le meilleur du terroir et offrez-vous les produits les plus raffinés.
