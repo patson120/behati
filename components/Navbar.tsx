@@ -10,7 +10,7 @@ const Navbar = () => {
   }
   return (
     <nav className="bg-white">
-      <div className="mx-auto max-w-7xl h-20 justify-center items-center">
+      <div className="container h-20 justify-center items-center">
         <div className="relative flex h-16 items-center justify-between">
           {/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             Mobile menu button
