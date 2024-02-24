@@ -5,7 +5,7 @@ import React from 'react'
 
 export const metadata = {
     title: "Behati | Home",
-    description: "Behati est une plateforme de vente de produit naturel cultivés sur le sol Camerounais", 
+    description: "Behati est une entreprise agroalimentaire qui vous propose des produits 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun", 
 }
 
 type Props = {
