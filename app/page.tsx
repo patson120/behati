@@ -4,7 +4,7 @@ import CONSTANTS from "@/utils/constants"
 import { collection, getDocs, query } from "firebase/firestore"
 import { useLayoutEffect, useState } from "react"
 
-import { Header, Hero } from "@/components"
+import { Footer, Header, Hero } from "@/components"
 import { database } from "@/config/firebase"
 
 
@@ -39,6 +39,7 @@ const Home = () => {
         <Header />
       </section>
       <Hero />
+      <Footer />
     </div>
   )
 }
