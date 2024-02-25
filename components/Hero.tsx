@@ -29,14 +29,14 @@ const Hero = () => {
 
 
           <div className="margin flex flex-col 
-              translate-y-2/3 max-md:translate-y-3/4 max-lg:translate-y-1/3 max-sm:translate-y-3
+              translate-y-2/3 max-md:translate-y-3/4 max-lg:translate-y-1/3 max-sm:translate-y-4
               w-2/5 max-md:w-4/5 max-lg:w-1/2 max-sm:mt-3
               gap-10 max-lg:gap-5 max-md:gap-3 max-sm:gap-2">
             <h2
               className="text-white text-5xl max-md:text-4xl max-sm:text-2xl font-medium"
             >Faites-vous plaisir tout en prenant soin de votre santé et de la planète.</h2>
 
-            <p className="text-white text-md max-sm:text-sm">
+            <p className="text-white text-md max-sm:text-xs">
               Bienvenue chez Behati, la marque qui vous propose des produits agroalimentaires 100% bio,
               cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
             </p>
