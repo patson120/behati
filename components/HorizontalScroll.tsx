@@ -18,7 +18,7 @@ const HorizontalScroll = () => {
         {
           texts.map((text, index) => (
             <p className="whitespace-nowrap" key={`${index}`}>
-              <span className={"font-bold text-lg mx-3"}>&#8226;</span>
+              {index != 0 && <span className={"font-bold text-lg mx-3"}>&#8226;</span>}
               <span className="text-sm">{text}</span>
             </p>
           )
