@@ -83,7 +83,6 @@ const Home = () => {
             <p className="text-md">Des produits sains, savoureux et pratiques, qui repondent à vos besoins nutritionnels et à vos envies gourmandes.</p>
           </div>
         </div>
-
         <div className="flex flex-row max-md:flex-col mt-4 gap-2 max-lg:border-2">
           <div className="h-auto w-1/2 max-md:w-full flex-shrink-0 relative">
             <div className="w-full h-full">
@@ -154,7 +153,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
 
       {/* Section D */}
       <section className="container h-screen max-sm:my-24 max-sm:h-min md:h-svh flex-center">
