@@ -28,7 +28,7 @@ const Hero = () => {
           className="absolute top-0 right-0 bottom-0 left-0">
 
 
-          <div className="flex flex-col translate-x-32 translate-y-36 h-1/2 w-2/5 gap-10">
+          <div className=" margin flex flex-col translate-y-1/3 w-2/5 gap-10">/
             <h2
               className="text-white text-5xl font-medium"
             >Faites-vous plaisir tout en prenant soin de votre santé et de la planète.</h2>

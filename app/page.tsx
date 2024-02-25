@@ -129,7 +129,6 @@ const Home = () => {
       </section >
 
       {/* Section C */}
-
       <section className="container mb-24">
         <div className="bg_image_map flex-center">
           <div className="flex-center w-2/5">
@@ -150,23 +149,27 @@ const Home = () => {
           </div>
         </div>
       </section>
-        <section className="container h-screen flex-center">
-          <div className="flex-center w-2/5">
-            <div className="text-center space-y-5">
-              <p className="text-4xl font-bold">Nous sommes ouverts pour la distribution de nos produits</p>
-              <p className="text-md">
-              Vous voulez rejoindre notre aventure et rendre nos 
-              produits encore plus accessible pour tous ? 
+
+
+      {/* Section D */}
+      <section className="container h-screen flex-center">
+        <div className="flex-center w-2/5">
+          <div className="text-center space-y-5">
+            <p className="text-4xl font-bold">Nous sommes ouverts pour la distribution de nos produits</p>
+            <p className="text-md">
+              Vous voulez rejoindre notre aventure et rendre nos
+              produits encore plus accessible pour tous ?
               Contactez-nous et travaillons ensembles.
-              </p>
-              <CustomButton
-                title='Contactez-nous'
-                containerStyle='black_color h-12 rounded-full text-white text-md font-bold px-10'
-                handleClick={() => { }}
-              />
-            </div>
+            </p>
+            <CustomButton
+              title='Contactez-nous'
+              containerStyle='black_color h-12 rounded-full text-white text-md font-bold px-10'
+              handleClick={() => { }}
+            />
           </div>
+        </div>
       </section>
+      
       <Footer />
     </div >
   )
