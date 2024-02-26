@@ -112,14 +112,10 @@ span {
     }
 }
 
-
-
 #mobile-menu {
-    @apply absolute right-0 p-3 bg-white  rounded-lg;
+    @apply absolute top-0 right-0 p-3 bg-white  rounded-lg;
     width: 250px;
     z-index: 9999;
-    top: 0;
-    
 }
 
 .show_menu {
