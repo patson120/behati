@@ -21,17 +21,19 @@ const Footer = () => {
               La marque qui vous propose des produits agroalimentaires 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
             </p>
           </div>
-          <div className="flex max-lg:justify-start space-x-4 text-white max-sm:text-sm max-sm:text-left">
-            <Link href="#" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
-            <Link href="#" className="nav_item_menu">NOS PRODUITS</Link> 
-            <Link href="#" className="nav_item_menu">POINTS DE VENTE</Link>
-            <Link href="#" className="nav_item_menu">A PROPOS</Link>
-            <Link href="#" className="nav_item_menu">CONTACT</Link>
+          <div className="flex max-lg:justify-start space-x-4 max-sm:space-x-0
+              max-sm:grid max-sm:grid-rows-2 max-sm:grid-cols-3 max-sm:grid-flow-col
+            text-white">
+            <Link href="#" className="footer_nav_item_menu order-1" aria-current="page">ACCUEIL</Link>
+            <Link href="#" className="footer_nav_item_menu order-2">NOS PRODUITS</Link> 
+            <Link href="#" className="footer_nav_item_menu max-sm:order-4">POINTS DE VENTE</Link>
+            <Link href="#" className="footer_nav_item_menu max-sm:order-3">A PROPOS</Link>
+            <Link href="#" className="footer_nav_item_menu order-5">CONTACT</Link>
           </div>
         </div>
       </section>
       <section className="h-12 bg-white flex flex-1 justify-center items-center max-sm:px-8">
-        <div className="mx-auto max-w-7xl flex flex-1 flex-row justify-between items-center max-sm:text-xs max-sm:space-x-3 text-center">
+        <div className="mx-auto max-w-7xl flex flex-1 flex-row justify-between items-center max-sm:text-[10px] max-sm:space-x-3 text-center">
           <p className="text-md">
             {date.getFullYear()} Tous droits reservés
           </p>

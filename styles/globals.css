@@ -75,7 +75,13 @@ span {
 }
 
 .nav_item_menu {
-    @apply w-full lg:w-[110px] hover:font-bold text-center max-sm:text-[10px] max-sm:text-left max-sm:w-auto py-2 text-xs md:text-sm font-medium whitespace-nowrap
+    @apply w-full lg:w-[110px] hover:font-bold text-center max-sm:w-auto py-2 text-xs md:text-sm font-medium whitespace-nowrap
+}
+
+.footer_nav_item_menu {
+    @apply w-full lg:w-[110px] hover:font-bold text-center 
+    max-sm:text-left py-2 text-xs md:text-sm max-sm:text-[10px]
+    font-medium whitespace-nowrap
 }
 
 
