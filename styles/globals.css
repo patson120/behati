@@ -36,7 +36,7 @@ span {
 
 .main {
     @apply overflow-hidden bg-white;
-    
+
 }
 
 
@@ -50,7 +50,7 @@ span {
 }
 
 .yellow_color {
-    background:#FFC700;
+    background: #FFC700;
 }
 
 .black_color {
@@ -79,9 +79,7 @@ span {
 }
 
 .footer_nav_item_menu {
-    @apply w-full lg:w-[110px] hover:font-bold text-center 
-    max-sm:text-left py-2 text-xs md:text-sm max-sm:text-[10px]
-    font-medium whitespace-nowrap
+    @apply w-full lg:w-[110px] hover:font-bold text-center max-sm:text-left py-2 text-xs md:text-sm max-sm:text-[10px] font-medium whitespace-nowrap
 }
 
 
@@ -113,7 +111,7 @@ span {
 }
 
 #mobile-menu {
-    @apply absolute top-0 right-0 p-3 bg-white  rounded-lg;
+    @apply absolute top-0 right-0 p-3 bg-white rounded-lg;
     width: 250px;
     z-index: 9999;
 }
@@ -125,5 +123,15 @@ span {
 }
 
 .hide_menu {
-    display: none!important;
+    display: none !important;
 }
+
+
+@media screen and (min-width: 1025px) and (max-width: 1100px) {
+
+    .points_vente_titre {
+        font-size: 40px !important;
+    }
+}
+
+

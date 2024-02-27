@@ -25,7 +25,7 @@ const Navbar = () => {
 
   globalThis?.window?.addEventListener("resize", (even: Event) => {
 
-    if (window.innerWidth > 1024){
+    if (window.innerWidth > 1024) {
       closeMenu()
     }
   })
@@ -74,9 +74,9 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:ml-0 lg:block">
               <div className="flex space-x-1 lg:space-x-4">
-                <Link href="#" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
+                <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
                 <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
-                <Link href="#" className="nav_item_menu">POINTS DE VENTE</Link>
+                <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
                 <Link href="#" className="nav_item_menu">A PROPOS</Link>
                 <Link href="#" className="nav_item_menu">CONTACT</Link>
               </div>
@@ -99,9 +99,9 @@ const Navbar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </div>
-              <Link href="#" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
+              <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
               <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
-              <Link href="#" className="nav_item_menu">POINTS DE VENTE</Link>
+              <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
               <Link href="#" className="nav_item_menu">A PROPOS</Link>
               <Link href="#" className="nav_item_menu">CONTACT</Link>
               <CustomButton
