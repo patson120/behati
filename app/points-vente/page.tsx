@@ -102,9 +102,11 @@ const Point = ({
     return (
         <div className='w-full flex flex-col justify-start items-start md:flex-row 
                 md:justify-between md:items-center pb-4 pr-2 border-b-2 border-b-gray-300'>
-            <div className='flex flex-row justify-center items-center space-x-6 md:space-x-16'>
+
+            <div className='md:flex md:flex-row sm:block sm:justify-start 
+                justify-center items-center space-x-0 sm:space-y-1 md:space-x-10 lg:space-x-16'>
                 <h3 className='text-sm md:text-lg uppercase font-bold'>{lieu}</h3>
-                <p className='text-sm md:text-md'>{libelle}</p>
+                <p className='text-md md:text-md'>{libelle}</p>
             </div>
             <div className='w-full md:w-auto flex justify-end items-center mt-2 md:mt-0' >
                 <button className=''>
