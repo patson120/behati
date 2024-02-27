@@ -28,7 +28,7 @@ const Footer = () => {
             <Link href="#" className="footer_nav_item_menu order-2">NOS PRODUITS</Link> 
             <Link href="/points-vente" className="footer_nav_item_menu order-3 max-sm:order-4">POINTS DE VENTE</Link>
             <Link href="#" className="footer_nav_item_menu order-4 max-sm:order-3">A PROPOS</Link>
-            <Link href="#" className="footer_nav_item_menu order-5">CONTACT</Link>
+            <Link href="/contact" className="footer_nav_item_menu order-5">CONTACT</Link>
           </div>
         </div>
       </section>

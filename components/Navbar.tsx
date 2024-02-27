@@ -78,7 +78,7 @@ const Navbar = () => {
                 <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
                 <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
                 <Link href="#" className="nav_item_menu">A PROPOS</Link>
-                <Link href="#" className="nav_item_menu">CONTACT</Link>
+                <Link href="/contact" className="nav_item_menu">CONTACT</Link>
               </div>
             </div>
             <CustomButton
@@ -103,7 +103,7 @@ const Navbar = () => {
               <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
               <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
               <Link href="#" className="nav_item_menu">A PROPOS</Link>
-              <Link href="#" className="nav_item_menu">CONTACT</Link>
+              <Link href="/contact" className="nav_item_menu">CONTACT</Link>
               <CustomButton
                 title='Contactez-nous'
                 containerStyle='black_bgcolor rounded-full text-white text-sm font-bold px-4 py-2'
