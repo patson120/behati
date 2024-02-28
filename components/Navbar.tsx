@@ -75,9 +75,9 @@ const Navbar = () => {
             <div className="hidden lg:ml-0 lg:block">
               <div className="flex space-x-1 lg:space-x-4">
                 <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
-                <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
+                <Link href="/produits" className="nav_item_menu">NOS PRODUITS</Link>
                 <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
-                <Link href="#" className="nav_item_menu">A PROPOS</Link>
+                <Link href="/a-propos" className="nav_item_menu">A PROPOS</Link>
                 <Link href="/contact" className="nav_item_menu">CONTACT</Link>
               </div>
             </div>
@@ -100,9 +100,9 @@ const Navbar = () => {
                 </svg>
               </div>
               <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
-              <Link href="#" className="nav_item_menu">NOS PRODUITS</Link>
+              <Link href="/produits" className="nav_item_menu">NOS PRODUITS</Link>
               <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
-              <Link href="#" className="nav_item_menu">A PROPOS</Link>
+              <Link href="/a-propos" className="nav_item_menu">A PROPOS</Link>
               <Link href="/contact" className="nav_item_menu">CONTACT</Link>
               <CustomButton
                 title='Contactez-nous'

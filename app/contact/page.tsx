@@ -46,7 +46,7 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className=' mt-5 w-full md:w-3/5'>
+                <div className=' mt-5 w-full md:w-3/5 lg:w-2/5'>
                     <div className='md:px-0 flex flex-col text-center gap-2 '>
                         <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold'>Laisser nous un message</h1>
                         <p className='text-xs md:text-sm lg:text-md px-10'>Vous pouvez également remplir le formulaire ci-dessous et nous vous recontacterons dans les plus brefs délais.</p>

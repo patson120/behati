@@ -25,9 +25,9 @@ const Footer = () => {
               max-sm:grid max-sm:grid-rows-2 max-sm:grid-cols-3 max-sm:grid-flow-col
             text-white">
             <Link href="/" className="footer_nav_item_menu order-1" aria-current="page">ACCUEIL</Link>
-            <Link href="#" className="footer_nav_item_menu order-2">NOS PRODUITS</Link> 
+            <Link href="/produits" className="footer_nav_item_menu order-2">NOS PRODUITS</Link> 
             <Link href="/points-vente" className="footer_nav_item_menu order-3 max-sm:order-4">POINTS DE VENTE</Link>
-            <Link href="#" className="footer_nav_item_menu order-4 max-sm:order-3">A PROPOS</Link>
+            <Link href="/a-propos" className="footer_nav_item_menu order-4 max-sm:order-3">A PROPOS</Link>
             <Link href="/contact" className="footer_nav_item_menu order-5">CONTACT</Link>
           </div>
         </div>
