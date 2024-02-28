@@ -2,7 +2,7 @@
 
 import CONSTANTS from "@/utils/constants"
 import { collection, getDocs, query } from "firebase/firestore"
-import { useLayoutEffect, useState } from "react"
+import { useState } from "react"
 
 import { CustomButton, Footer, Header, Hero } from "@/components"
 import { database } from "@/config/firebase"
@@ -27,10 +27,6 @@ const Home = () => {
       setCars((prev: any) => [...prev, doc.data()])
     })
   }
-
-  useLayoutEffect(() => {
-    // getData();
-  }, [])
 
 
   return (
