@@ -146,7 +146,7 @@ const Home = () => {
               </p>
               <CustomButton
                 title='Commander un produit'
-                containerStyle='black_color h-12 rounded-full text-white text-md font-bold px-6'
+                containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-6'
                 handleClick={() => { }}
               />
             </div>
