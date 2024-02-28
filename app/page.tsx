@@ -166,7 +166,7 @@ const Home = () => {
             </p>
             <CustomButton
               title='Contactez-nous'
-              containerStyle='black_color h-12 rounded-full text-white text-md font-bold px-10'
+              containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-10'
               handleClick={() => { }}
             />
           </div>

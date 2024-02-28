@@ -7,7 +7,7 @@ const Footer = () => {
 
   const date = new Date()
   return (
-    <footer className="black_color">
+    <footer className="black_bgcolor">
       <section className="container h-44 max-lg:h-56 flex flex-row justify-center items-center">
         <div className="flex max-lg:block max-lg:space-y-3 justify-between items-center">
           <div className="flex flex-col gap-3 w-1/3 max-lg:w-2/3 max-sm:w-3/4 max-sm:mx-1">

@@ -65,12 +65,13 @@ const Navbar = () => {
 
           <div className="flex flex-1 mt-1 w-full justify-between items-center max-lg:items-stretch">
             <div className="flex flex-shrink-0 items-center sm:w-24">
-              <Image
-                width="100"
-                height={50}
-                className="h-8 w-auto"
-                src="/assets/images/Behati-logo.png"
-                alt="Behati logo" />
+              <Link  href="/">
+                <Image
+                  width="100"
+                  height={50}
+                  className="h-8 w-auto"
+                  src="/assets/images/Behati-logo.png"
+                  alt="Behati logo" /></Link>
             </div>
             <div className="hidden lg:ml-0 lg:block">
               <div className="flex space-x-1 lg:space-x-4">

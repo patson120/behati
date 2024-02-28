@@ -53,8 +53,12 @@ span {
     background: #FFC700;
 }
 
+.yellowColor {
+    color: #FFC700;
+}
+
 .black_color {
-    background: #0C1A26;
+    color: #0C1A26;
 }
 
 .black_bgcolor {
