@@ -34,11 +34,10 @@ const Apropos = () => {
                     <div className='w-full h-auto lg:h-96 secondary-green flex justify-start items-center'>
                         <div className='text-left p-10 flex flex-col gap-y-8'>
                             <h1 className='text-4xl font-medium'>Qui sommes nous ?</h1>
-                            <p>
-                                Né d'une passion ardente pour la nature,
+                            <p>Né d&#39;une passion ardente pour la nature,
                                 la santé et la gastronomie, nous sommes Behati,
-                                une entreprise agroalimentaire qui cultive l'excellence
-                                dans les hauteurs majestueuses de l'ouest Cameroun.
+                                une entreprise agroalimentaire qui cultive l&#39;excellence
+                                dans les hauteurs majestueuses de l&#39;ouest Cameroun.
                                 Notre terre fertile, baignée de soleil et caressée par les nuages,
                                 donne naissance à des produits 100% bio,
                                 gorgés de saveurs authentiques et de bienfaits naturels.
@@ -49,7 +48,7 @@ const Apropos = () => {
                         <div className='text-left lg:px-10 flex flex-col gap-y-2'>
                             <h1 className='text-xl font-medium'>Loin des engrais chimiques et des pesticides néfastes </h1>
                             <p>
-                                Nos cultures s'épanouissent dans un environnement sain et respectueux.
+                                Nos cultures s&#39;épanouissent dans un environnement sain et respectueux.
                                 Chaque fruit, chaque légume est un trésor précieux,
                                 une ode à la nature et à ses secrets.
                             </p>
@@ -64,12 +63,12 @@ const Apropos = () => {
                     <div className='w-full h-auto md:h-96'>
                         <div className='text-left text-sm md:text-md lg:px-10 flex flex-col gap-y-10 lg:gap-y-4'>
                             <div>
-                                <h1 className='text-xl font-medium'>Behati, c'est plus qu'une simple entreprise.</h1>
+                                <h1 className='text-xl font-medium'>Behati, c&#39;est plus qu&#39;une simple entreprise.</h1>
                                 <p>
-                                    C'est une invitation à un voyage culinaire extraordinaire,
+                                    C&#39;est une invitation à un voyage culinaire extraordinaire,
                                     à la découverte des trésors gustatifs du Cameroun.
-                                    C'est une ode à la terre nourricière et aux traditions ancestrales.
-                                    C'est un engagement à préserver l'environnement et à valoriser le travail des producteurs locaux.
+                                    C&#39;est une ode à la terre nourricière et aux traditions ancestrales.
+                                    C&#39;est un engagement à préserver l&#39;environnement et à valoriser le travail des producteurs locaux.
                                 </p>
                             </div>
 
@@ -84,13 +83,13 @@ const Apropos = () => {
 
                             <div>
                                 <h1 className='text-xl font-medium'>
-                                    Behati, c'est l'alliance parfaite entre le plaisir gustatif, le bien-être et l'engagement
+                                    Behati, c&#39;est l&#39;alliance parfaite entre le plaisir gustatif, le bien-être et l&#39;engagement
                                 </h1>
                                 <p>
                                     Rejoignez-nous dans cette odyssée des saveurs authentiques
-                                    et participez à la création d'un avenir plus durable et plus sain.
+                                    et participez à la création d&#39;un avenir plus durable et plus sain.
                                 </p>
-                                <p className='pt-4 underline'>Behati : La nature s'invite à votre table.</p>
+                                <p className='pt-4 underline'>Behati : La nature s&#39;invite à votre table.</p>
                             </div>
                         </div>
                     </div>
@@ -111,10 +110,10 @@ const Apropos = () => {
                                     Huile de tournesol: première pression à froid, riche en acides gras insaturés,certifiée bio, vegan, sans gluten, sans lactose et sans noix.
                                 </li>
                                 <li className='list-disc'>
-                                    Mayonnaise: onctueuse et savoureuse, à base d'huile de tournesol bio, de vinaigre, de moutarde et d'oeufs, certifiée bio, vegan, sans gluten, sans lactose et sans noix.
+                                    Mayonnaise: onctueuse et savoureuse, à base d&#39;huile de tournesol bio, de vinaigre, de moutarde et d&#39;oeufs, certifiée bio, vegan, sans gluten, sans lactose et sans noix.
                                 </li>
                             </ul>
-                            <p>Tous les ingrédients sont certifiés bio par Ecocert, ce qui garantit l'absence de pesticides, d'OGM ou d'additifs chimiques.</p>
+                            <p>Tous les ingrédients sont certifiés bio par Ecocert, ce qui garantit l&#39;absence de pesticides, d&#39;OGM ou d&#39;additifs chimiques.</p>
                         </div>
                     </div>
 
@@ -194,8 +193,8 @@ const Apropos = () => {
                         <div className='flex flex-col gap-1'>
                             <h1 className='text-md font-bold'>Cultiver des produits 100% bio et sains</h1>
                             <p className=' text-sm md:text-md'>
-                                Dans les montagnes de l'ouest Cameroun,
-                                en utilisant des méthodes durables et respectueuses de l'environnement.
+                                Dans les montagnes de l&#39;ouest Cameroun,
+                                en utilisant des méthodes durables et respectueuses de l&#39;environnement.
                             </p>
                         </div>
 
