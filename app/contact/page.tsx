@@ -98,7 +98,7 @@ const Contact = () => {
 
                         <div className="col-span-full mb-8">
                             <CustomButton
-                                title='Contactez-nous'
+                                title='Enyoyer'
                                 containerStyle='primary_green h-12 mt-10 w-full rounded-full text-md font-bold px-4'
                                 handleClick={() => { }}
                             />
