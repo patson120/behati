@@ -2,9 +2,10 @@
 
 'use client'
 
-import { CustomButton, Footer, Header } from '@/components'
+import { CustomButton } from '@/components'
 import { useRouter } from 'next/navigation'
 import React from 'react'
+
 
 const Apropos = () => {
 

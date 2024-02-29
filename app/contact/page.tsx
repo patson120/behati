@@ -1,7 +1,6 @@
 'use client'
 
-import { Footer, Header, CustomButton } from '@/components'
-import React from 'react'
+import { CustomButton } from '@/components'
 
 
 const Contact = () => {

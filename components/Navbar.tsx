@@ -22,11 +22,9 @@ const Navbar = () => {
     var menu = document.querySelector("#mobile-menu")
     menu?.classList.remove("show_menu")
     menu?.classList.add("hide_menu")
-
   }
 
   globalThis?.window?.addEventListener("resize", (event: Event) => {
-
     if (window.innerWidth > 1024) {
       closeMenu()
     }

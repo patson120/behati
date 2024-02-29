@@ -4,7 +4,7 @@ import CONSTANTS from "@/utils/constants"
 import { collection, getDocs, query } from "firebase/firestore"
 import { useState } from "react"
 
-import { CustomButton, Footer, Header, Hero } from "@/components"
+import { CustomButton, Hero } from "@/components"
 import { database } from "@/config/firebase"
 
 

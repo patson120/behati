@@ -1,8 +1,7 @@
 
 'use client'
 
-import { CustomButton, Footer, Header } from '@/components'
-import React from 'react'
+import { CustomButton } from '@/components'
 
 const PointsVente = () => {
     return (

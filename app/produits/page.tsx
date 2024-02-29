@@ -1,9 +1,8 @@
 'use client'
 
-import { CustomButton, Footer, Header } from '@/components'
+import { CustomButton } from '@/components'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import React from 'react'
 
 const Produits = () => {
 
