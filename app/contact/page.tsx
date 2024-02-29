@@ -142,7 +142,7 @@ export default Contact
 
 const RoundedButton = ({ title, value }: { title: string; value: string; }) => {
 
-    return <div className='flex flex-row justify-center items-center rounded-full border-[1.5px] border-gray-200 px-10 py-3'>
+    return <div className='flex flex-row justify-center items-center rounded-full border-[1.5px] border-gray-200 px-2 md:px-10 py-3'>
         <h6 className='font-semibold text-xs lg:text-md'>{title}</h6>
         <p className='text-xs lg:text-md'>{value}</p>
     </div>
