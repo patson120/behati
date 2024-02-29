@@ -35,7 +35,7 @@ span {
 }
 
 .main {
-    @apply overflow-hidden bg-white;
+    @apply overflow-x-hidden bg-white;
 
 }
 

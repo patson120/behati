@@ -6,8 +6,7 @@ import React from 'react'
 
 const PointsVente = () => {
     return (
-        <div >
-            <Header />
+        <>
             <div className='container'>
 
                 {/* Section A */}
@@ -83,8 +82,7 @@ const PointsVente = () => {
                     </div>
                 </section>
             </div>
-            <Footer />
-        </div>
+        </>
     )
 }
 

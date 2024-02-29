@@ -30,8 +30,7 @@ const Home = () => {
 
 
   return (
-    <div>
-      <Header />
+    <>
       <Hero />
       {/* Section A */}
       <section className="py-24 flex flex-1 max-md:flex-col flex-row justify-end md:-space-x-24">
@@ -169,8 +168,7 @@ const Home = () => {
         </div>
       </section>
 
-      <Footer />
-    </div >
+    </ >
   )
 }
 

@@ -6,8 +6,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
-            <Header />
+        <>
             {/* Section A */}
             <section className='w-full h-[425px] overflow-hidden'>
                 <div className="flex-shrink-0 w-full flex justify-center items-center"
@@ -112,7 +111,6 @@ const Contact = () => {
                     <p className='text-xs md:text-sm lg:text-md'>Vous pouvez aussi nous suivre sur les réseaux sociaux, où nous partageons nos actualités, nos recettes, nos conseils et nos offres.</p>
                 </div>
 
-
                 <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <RoundedButton
                         title={"Facebook"}
@@ -127,13 +125,8 @@ const Contact = () => {
                         value={" : behati-group"}
                     />
                 </div>
-
-
             </section>
-
-            {/* Section D */}
-            <Footer />
-        </div >
+        </ >
     )
 }
 

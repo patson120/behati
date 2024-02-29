@@ -9,8 +9,7 @@ const Produits = () => {
 
     const router = useRouter()
     return (
-        <div>
-            <Header />
+        <>
 
             {/* Section A */}
             <section className='grid grid-cols-1 md:grid-cols-2 h-w-full h-screen md:h-[650px]'>
@@ -286,9 +285,7 @@ const Produits = () => {
                 </div>
             </section>
 
-            <Footer />
-
-        </div >
+        </ >
     )
 }
 

@@ -10,9 +10,7 @@ const Apropos = () => {
 
     const router = useRouter()
     return (
-        <div>
-            <Header />
-
+        <>
             {/* Section A */}
             <section className='w-full h-[425px] overflow-hidden'>
                 <div className="flex-shrink-0 w-full flex justify-center items-center"
@@ -243,10 +241,7 @@ const Apropos = () => {
                     </div>
                 </div>
             </section>
-
-          
-            <Footer />
-        </div>
+        </>
     )
 }
 

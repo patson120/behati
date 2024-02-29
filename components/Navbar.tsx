@@ -1,8 +1,10 @@
 
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { CustomButton } from '.'
-import { MouseEvent, useEffect } from 'react'
+import { MouseEvent } from 'react'
 
 const Navbar = () => {
 
@@ -23,7 +25,7 @@ const Navbar = () => {
 
   }
 
-  globalThis?.window?.addEventListener("resize", (even: Event) => {
+  globalThis?.window?.addEventListener("resize", (event: Event) => {
 
     if (window.innerWidth > 1024) {
       closeMenu()
