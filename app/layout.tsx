@@ -17,11 +17,10 @@ const RoutLayout: React.FC<Props> = ({ children }) => {
     return (
 
         <html lang='en'>
-            <body className='relative'>
-
-
-                <main className='main'>
+            <body className=''>
+                <main className='main relative'>
                     <Header />
+                    <div className='h-[124px]'></div>
                     {children}
                     <Footer />
                 </main>
