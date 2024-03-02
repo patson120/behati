@@ -6,9 +6,12 @@ import { useState } from "react"
 
 import { CustomButton, Hero } from "@/components"
 import { database } from "@/config/firebase"
+import { useRouter } from "next/navigation"
 
 
 const Home = () => {
+
+  const router = useRouter()
 
   const [users, setUsers] = useState([])
   const [cars, setCars] = useState<any>([])
@@ -162,7 +165,7 @@ const Home = () => {
             <CustomButton
               title='Contactez-nous'
               containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-10'
-              handleClick={() => { }}
+              handleClick={() => { router.push('/contact') }}
             />
           </div>
         </div>

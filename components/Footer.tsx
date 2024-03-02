@@ -4,31 +4,30 @@ import Image from "next/image"
 import Link from "next/link"
 
 const Footer = () => {
-
   const date = new Date()
   return (
     <footer className="black_bgcolor">
       <section className="container h-44 max-lg:h-56 flex flex-row justify-center items-center">
         <div className="flex max-lg:block max-lg:space-y-3 justify-between items-center">
-          <div className="flex flex-col gap-3 w-1/3 max-lg:w-2/3 max-sm:w-3/4 max-sm:mx-1">
+          <div className="flex flex-col gap-3 w-3/4 md:w-1/3 lg:w-2/3 max-sm: max-sm:mx-1">
             <Image
               width={100}
               height={50}
               alt="Behati logo"
               src="/assets/images/Behati-logo-white.png"
             />
-            <p className="text-sm max-sm:text-xs text-white">
+            <p className="text-xs md:text-sm text-white">
               La marque qui vous propose des produits agroalimentaires 100% bio, cultivés sans engrais dans les hautes montagnes de l’ouest Cameroun.
             </p>
           </div>
           <div className="flex max-lg:justify-start space-x-4 max-sm:space-x-0
               max-sm:grid max-sm:grid-rows-2 max-sm:grid-cols-3 max-sm:grid-flow-col
             text-white">
-            <Link href="/" className="footer_nav_item_menu order-1" aria-current="page">ACCUEIL</Link>
-            <Link href="/produits" className="footer_nav_item_menu order-2">NOS PRODUITS</Link> 
-            <Link href="/points-vente" className="footer_nav_item_menu order-3 max-sm:order-4">POINTS DE VENTE</Link>
-            <Link href="/a-propos" className="footer_nav_item_menu order-4 max-sm:order-3">A PROPOS</Link>
-            <Link href="/contact" className="footer_nav_item_menu order-5">CONTACT</Link>
+            <Link href="/" className="footer_nav_item_menu order-1" aria-current="page">Accueil</Link>
+            <Link href="/produits" className="footer_nav_item_menu order-2">Nos produits</Link> 
+            <Link href="/points-vente" className="footer_nav_item_menu order-3 max-sm:order-4">Points de vente</Link>
+            <Link href="/a-propos" className="footer_nav_item_menu order-4 max-sm:order-3">A propos</Link>
+            <Link href="/contact" className="footer_nav_item_menu order-5">Contact</Link>
           </div>
         </div>
       </section>

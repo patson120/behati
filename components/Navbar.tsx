@@ -31,10 +31,9 @@ const Navbar = () => {
   })
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-white relative">
       <div className="container h-20 justify-center items-center">
-        <div className="relative flex h-16 items-center justify-between">
-
+        <div className="relative flex h-16 items-center justify-between ">
           <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
             {/* Mobile menu button */}
             <button
@@ -61,11 +60,9 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-
-
           <div className="flex flex-1 mt-1 w-full justify-between items-center max-lg:items-stretch">
             <div className="flex flex-shrink-0 items-center sm:w-24">
-              <Link  href="/">
+              <Link href="/">
                 <Image
                   width="100"
                   height={50}
@@ -75,44 +72,103 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:ml-0 lg:block">
               <div className="flex space-x-1 lg:space-x-4">
-                <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
-                <Link href="/produits" className="nav_item_menu">NOS PRODUITS</Link>
-                <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
-                <Link href="/a-propos" className="nav_item_menu">A PROPOS</Link>
-                <Link href="/contact" className="nav_item_menu">CONTACT</Link>
+                <Link href="/" className="nav_item_menu" aria-current="page">Accueil</Link>
+                <Link href="/produits" className="nav_item_menu">Nos produits</Link>
+                <Link href="/points-vente" className="nav_item_menu">Points de vente</Link>
+                <Link href="/a-propos" className="nav_item_menu">A propos</Link>
+                <Link href="/contact" className="nav_item_menu">Contact</Link>
               </div>
             </div>
             <CustomButton
-              title='Contactez-nous'
+              title='Commander'
               containerStyle='black_bgcolor hidden lg:block h-9 rounded-full text-white text-sm font-bold px-4'
               handleClick={handleClick}
             />
           </div>
+        </div>
+      </div>
 
-
-          {/* Mobile menu, show/hide based on menu state.  */}
-          <div className="lg:hidden hide_menu" id="mobile-menu">
-            <div className="space-y-2 px-2 pb-3 pt-2 flex flex-1 flex-col">
-              <div className='flex justify-end'>
-                <svg
-                  onClick={closeMenu}
-                  className="mb-2 h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </div>
-              <Link href="/" className="nav_item_menu" aria-current="page">ACCUEIL</Link>
-              <Link href="/produits" className="nav_item_menu">NOS PRODUITS</Link>
-              <Link href="/points-vente" className="nav_item_menu">POINTS DE VENTE</Link>
-              <Link href="/a-propos" className="nav_item_menu">A PROPOS</Link>
-              <Link href="/contact" className="nav_item_menu">CONTACT</Link>
-              <CustomButton
-                title='Contactez-nous'
-                containerStyle='black_bgcolor rounded-full text-white text-sm font-bold px-4 py-2'
-                handleClick={handleClick}
-              />
-            </div>
+      {/* Mobile menu, show/hide based on menu state.  */}
+      <div className="lg:hidden hide_menu" id="mobile-menu">
+        <div className="h-full space-y-2 px-3 pb-3 pt-2 flex flex-1 flex-col justify-between">
+          <div className='flex justify-between items-center border-b-[1.5px] pb-5'>
+            <Link href="/">
+              <Image
+                width={50}
+                height={50}
+                className="h-8 w-auto"
+                src="/assets/images/Behati-logo.png"
+                alt="Behati logo" /></Link>
+            <svg
+              onClick={closeMenu}
+              className="mb-2 h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
           </div>
+          <div className='space-y-4 flex flex-col pb-5'>
+            <Link href="/"
+              onClick={closeMenu}
+              className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              <p>Accueil</p>
+              <Image
+                width={35}
+                height={35}
+                className="h-8 w-auto"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
+            </Link>
+            <Link href="/produits"
+              onClick={closeMenu}
+              className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              <p>Nos produits</p>
+              <Image
+                width={35}
+                height={35}
+                className="h-8 w-auto"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
+            </Link>
+            <Link href="/points-vente"
+              onClick={closeMenu}
+              className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              <p>Points de vente</p>
+              <Image
+                width={35}
+                height={35}
+                className="h-8 w-auto"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
+            </Link>
 
+            <Link href="/a-propos"
+              onClick={closeMenu}
+              className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              <p>A propos</p>
+              <Image
+                width={35}
+                height={35}
+                className="h-8 w-auto"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
+            </Link>
+
+            <Link href="/contact"
+            onClick={closeMenu}
+            className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              <p>contact</p>
+              <Image
+                width={35}
+                height={35}
+                className="h-8 w-auto"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
+            </Link>
+            <CustomButton
+              title='Commander'
+              containerStyle='black_bgcolor hidden lg:block rounded-full text-white text-sm font-bold px-4 py-2'
+              handleClick={handleClick}
+            />
+          </div>
         </div>
       </div>
 
