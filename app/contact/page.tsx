@@ -4,6 +4,8 @@ import { CustomButton } from '@/components';
 import { ContactType } from '@/types';
 import { FormEvent, useState } from 'react';
 
+import CONSTANTS from '@/utils/constants'
+
 
 
 const Contact = () => {
@@ -26,7 +28,7 @@ const Contact = () => {
 
         setIsloading(true)
 
-        fetch('http://localhost:3000/api/contacts',
+        fetch(`${CONSTANTS.BASE_URL}/contacts`,
             {
                 method: 'POST',
                 headers: {
@@ -47,7 +49,6 @@ const Contact = () => {
             })
 
     }
-
 
     const showMessage = () => {
         setShowSuccess(true)

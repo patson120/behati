@@ -64,11 +64,12 @@ const Navbar = () => {
             <div className="flex flex-shrink-0 items-center sm:w-24">
               <Link href="/">
                 <Image
-                  width="100"
-                  height={50}
-                  className="h-8 w-auto"
-                  src="/assets/images/Behati-logo.png"
-                  alt="Behati logo" /></Link>
+                  width={120}
+                  height={40}
+                  className="h-6 w-auto"
+                  src="/assets/images/Behati_black_logo.png"
+                  alt="Behati logo" />
+              </Link>
             </div>
             <div className="hidden lg:ml-0 lg:block">
               <div className="flex space-x-1 lg:space-x-4">
@@ -153,8 +154,8 @@ const Navbar = () => {
             </Link>
 
             <Link href="/contact"
-            onClick={closeMenu}
-            className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
+              onClick={closeMenu}
+              className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Contact</p>
               <Image
                 width={40}
