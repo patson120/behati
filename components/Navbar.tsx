@@ -111,9 +111,9 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Accueil</p>
               <Image
-                width={35}
-                height={35}
-                className="h-8 w-auto"
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
                 src="/assets/icons/arrow-up-right.png"
                 alt="Icon" />
             </Link>
@@ -122,9 +122,9 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Nos produits</p>
               <Image
-                width={35}
-                height={35}
-                className="h-8 w-auto"
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
                 src="/assets/icons/arrow-up-right.png"
                 alt="Icon" />
             </Link>
@@ -133,9 +133,9 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Points de vente</p>
               <Image
-                width={35}
-                height={35}
-                className="h-8 w-auto"
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
                 src="/assets/icons/arrow-up-right.png"
                 alt="Icon" />
             </Link>
@@ -145,9 +145,9 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>A propos</p>
               <Image
-                width={35}
-                height={35}
-                className="h-8 w-auto"
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
                 src="/assets/icons/arrow-up-right.png"
                 alt="Icon" />
             </Link>
@@ -155,11 +155,11 @@ const Navbar = () => {
             <Link href="/contact"
             onClick={closeMenu}
             className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
-              <p>contact</p>
+              <p>Contact</p>
               <Image
-                width={35}
-                height={35}
-                className="h-8 w-auto"
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
                 src="/assets/icons/arrow-up-right.png"
                 alt="Icon" />
             </Link>
