@@ -16,4 +16,6 @@ export type ContactType = {
     email: string;
     object: string;
     message: string;
+    createdAt?: string;
+    updatedAt?: string;
 }

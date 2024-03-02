@@ -120,7 +120,7 @@ const Contact = () => {
                         </div>
 
                         <div className="col-span-full md:col-span-1 flex rounded-lg shadow-sm">
-                            <input type="text" name="prenom" id="prenom" autoComplete="name"
+                            <input type="text" name="prenom" id="prenom"
                                 value={contact.prenom}
                                 onChange={(e) => setContact({ ...contact, prenom: e.target.value })}
                                 className="block flex-1 border-0 bg-transparent rounded-lg py-3 pl-4 text-gray-900 
@@ -141,7 +141,7 @@ const Contact = () => {
                         </div>
 
                         <div className="col-span-full flex rounded-lg shadow-sm">
-                            <input type="email" name="address" id="address" autoComplete="email"
+                            <input type="text" name="object" id="object"
                                 value={contact.object}
                                 onChange={(e) => setContact({ ...contact, object: e.target.value })}
                                 required
