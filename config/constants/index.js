@@ -1,9 +1,11 @@
 // Settings
 export default {
-    API_KEY: "AIzaSyCRcdmH2_dDPSOxTTCbDrNtX-_aTKqlrsM",
-    AUTH_DOMAIN: "opep-4b097.firebaseapp.com",
-    PROJECT_ID: "opep-4b097",
-    STORAGE_BUCKET: "opep-4b097.appspot.com",
-    MESSAGING_SENDER_ID: "791626645352",
-    API_ID: "1:791626645352:web:323c90064720950c0020dd"
+    API_KEY: "AIzaSyCbqEAbjJ6LFw_PrGCHwBMeNPlVXpsMhJQ",
+    AUTH_DOMAIN: "behati-f7f68.firebaseapp.com",
+    PROJECT_ID: "behati-f7f68",
+    STORAGE_BUCKET: "behati-f7f68.appspot.com",
+    MESSAGING_SENDER_ID: "468753431903",
+    API_ID: "1:468753431903:web:61087336da66f55d9f4aea"
 };
+
+
