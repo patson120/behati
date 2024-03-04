@@ -45,7 +45,7 @@ const Contact = () => {
             })
             .catch(err => {
                 setIsloading(false)
-                console.log(err.message)
+                console.log(err)
             })
 
     }
