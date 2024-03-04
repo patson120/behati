@@ -112,11 +112,11 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Accueil</p>
               <Image
-                width={40}
-                height={40}
-                className="h-5 w-auto opacity-40"
-                src="/assets/icons/arrow-up-right.png"
-                alt="Icon" />
+                  width={120}
+                  height={40}
+                  className="h-6 w-auto"
+                  src="/assets/images/Behati_black_logo.png"
+                  alt="Behati logo" />
             </Link>
             <Link href="/produits"
               onClick={closeMenu}
