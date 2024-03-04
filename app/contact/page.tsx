@@ -29,23 +29,6 @@ const Contact = () => {
         setIsloading(true)
 
 
-        fetch(`${CONSTANTS.BASE_URL}/contacts`,
-            {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(contact)
-            }
-        )
-            .then(response => response.json())
-            .then(response => console.log({message: response})
-            )
-
-        setIsloading(false)
-
-
-
         // fetch(`${CONSTANTS.BASE_URL}/contacts`,
         //     {
         //         method: 'POST',
@@ -56,15 +39,32 @@ const Contact = () => {
         //     }
         // )
         //     .then(response => response.json())
-        //     .then(() => {
-        //         setIsloading(false)
-        //         setContact({id: "",nom: "",prenom: "",email: "",object: "",message: ""})
-        //         showMessage()
-        //     })
-        //     .catch(err => {
-        //         setIsloading(false)
-        //         console.log(err)
-        //     })
+        //     .then(response => console.log({message: response})
+        //     )
+
+        // setIsloading(false)
+
+
+
+        fetch(`${CONSTANTS.BASE_URL}/infos`,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(contact)
+            }
+        )
+            .then(response => response.json())
+            .then(() => {
+                setIsloading(false)
+                setContact({id: "",nom: "",prenom: "",email: "",object: "",message: ""})
+                showMessage()
+            })
+            .catch(err => {
+                setIsloading(false)
+                console.log(err)
+            })
 
     }
 
