@@ -27,10 +27,8 @@ export async function POST(request: Request) {
     )
 
     if (status === true) {
-        console.log("Mail sent successfully");
         return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
     }
-    console.log("Unable to sent a Mail");
     return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
 
 }

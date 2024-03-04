@@ -95,11 +95,12 @@ const Navbar = () => {
           <div className='flex justify-between items-center border-b-[1.5px] pb-5'>
             <Link href="/">
               <Image
-                width={50}
-                height={50}
-                className="h-8 w-auto"
-                src="/assets/images/Behati-logo.png"
-                alt="Behati logo" /></Link>
+                width={120}
+                height={40}
+                className="h-6 w-auto"
+                src="/assets/images/Behati_black_logo.png"
+                alt="Behati logo" />
+            </Link>
             <svg
               onClick={closeMenu}
               className="mb-2 h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
@@ -112,11 +113,11 @@ const Navbar = () => {
               className="nav_item_menu flex flex-row justify-between items-center border-b-[1.5px] border-gray-300" aria-current="page">
               <p>Accueil</p>
               <Image
-                  width={120}
-                  height={40}
-                  className="h-6 w-auto"
-                  src="/assets/images/Behati_black_logo.png"
-                  alt="Behati logo" />
+                width={40}
+                height={40}
+                className="h-5 w-auto opacity-40"
+                src="/assets/icons/arrow-up-right.png"
+                alt="Icon" />
             </Link>
             <Link href="/produits"
               onClick={closeMenu}
