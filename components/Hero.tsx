@@ -1,6 +1,9 @@
+import { useRouter } from 'next/navigation'
 import { CustomButton } from '.'
 
 const Hero = () => {
+
+  const router = useRouter()
   return (
     <>
       {/* Image section */}
@@ -44,12 +47,12 @@ const Hero = () => {
               <CustomButton
                 title='Contactez-nous'
                 containerStyle='primary_green h-9 max-sm:w-full rounded-full text-sm font-bold px-4'
-                handleClick={() => { }}
+                handleClick={() => { router.push("/contact") }}
               />
               <CustomButton
                 title='Voir nos produits'
                 containerStyle='border-2 h-9 rounded-full text-white text-sm font-bold px-4 max-sm:hidden'
-                handleClick={() => { }}
+                handleClick={() => { router.push("/produits") }}
               />
             </div>
           </div>
