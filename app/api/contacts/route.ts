@@ -19,16 +19,16 @@ export async function POST(request: Request) {
     const response = await hookContact.save(body)
 
     const hookSenMail = useSendMail()
-    const status = await hookSenMail.send(
-        body.email,
-        body.object,
-        body.message,
-        `${body.nom} ${body.prenom}`,
-    )
+    // const status = await hookSenMail.send(
+    //     body.email,
+    //     body.object,
+    //     body.message,
+    //     `${body.nom} ${body.prenom}`,
+    // )
+    return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
 
-    if (status === true) {
-        return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
-    }
-    return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
+    // if (status === true) {
+    // }
+    // return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
 
 }

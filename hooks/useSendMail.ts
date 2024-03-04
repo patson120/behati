@@ -10,7 +10,7 @@ const useSendMail = () => {
         try {
             await transporter.sendMail({
                 from: from,
-                to: 'claudkuate@gmail.com', // CONSTANTS.EMAIL_USERNAME,
+                to: CONSTANTS.EMAIL_USERNAME, // 'claudkuate@gmail.com',
                 subject: subject,
                 text: message,
                 html: `
