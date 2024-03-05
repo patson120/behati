@@ -39,18 +39,26 @@ const Contact = () => {
             }
         )
             .then(response => response.json())
-            .then(response => console.log({message: response})
-            )
+            .then(response => {
+                showMessage()
+                setContact({
+                    id: "",
+                    nom: "",
+                    prenom: "",
+                    email: "",
+                    object: "",
+                    message: ""
+                })
+            })
+            .catch(err => console.log({ message: err }))
 
-            .catch(err => console.log({message: err}));
-
-        setIsloading(false)
-
+            .finally(() => {
+                setIsloading(false)
+            })
     }
 
     const showMessage = () => {
         setShowSuccess(true)
-
         setTimeout(() => {
             setShowSuccess(false)
         }, 3000);
