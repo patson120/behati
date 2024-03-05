@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     const response = await hookContact.save(body)
 
     
-    const hookSenMail = useSendMail()
+    // const hookSenMail = useSendMail()
     // const status = await hookSenMail.send(
     //     body.email,
     //     body.object,
