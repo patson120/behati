@@ -3,7 +3,7 @@ import { NextResponse } from "next/server"
 import STATUS from '@/utils/status.code'
 
 
-export async function POST(request: Request) {
+export async function GET(request: Request) {
 
     const response = [
         {
