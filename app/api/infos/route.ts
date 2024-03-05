@@ -15,19 +15,19 @@ export async function POST(request: Request) {
 
     
     const hookSenMail = useSendMail()
-    const status = await hookSenMail.send(
-        body.email,
-        body.object,
-        body.message,
-        `${body.nom} ${body.prenom}`,
-    )
+    // const status = await hookSenMail.send(
+    //     body.email,
+    //     body.object,
+    //     body.message,
+    //     `${body.nom} ${body.prenom}`,
+    // )
     
-    if (status === true) {
-        console.log("Mail sent successfully");
-        return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
-    }
-    console.log("Unable to send mail");
-    return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
+    // if (status === true) {
+    //     console.log("Mail sent successfully");
+    //     return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
+    // }
+    // console.log("Unable to send mail");
+    // return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
 
-    // return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
+    return NextResponse.json({ success: true, status: 201, result: response }, { status: STATUS.CREATED })
 }
