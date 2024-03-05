@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "npm install && npm run build",
+    "push": "git push -u origin master"
   },
   "dependencies": {
     "firebase": "^10.8.1",
