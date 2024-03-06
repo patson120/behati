@@ -1,36 +1,13 @@
 'use client'
 
-import CONSTANTS from "@/utils/constants"
-import { collection, getDocs, query } from "firebase/firestore"
-import { useState } from "react"
 
 import { CustomButton, Hero } from "@/components"
-import { database } from "@/config/firebase"
 import { useRouter } from "next/navigation"
 
 
 const Home = () => {
 
   const router = useRouter()
-
-  const [users, setUsers] = useState([])
-  const [cars, setCars] = useState<any>([])
-
-  const getData = async () => {
-
-    const data = await fetch(`${CONSTANTS.BASE_URL}/contacts`)
-    const response = await data.json();
-    setUsers(response.users)
-
-    const carsQuery = query(collection(database, "VEHICLE"))
-    const querySnapshot = await getDocs(carsQuery)
-
-    setCars([])
-    querySnapshot.forEach((doc) => {
-      setCars((prev: any) => [...prev, doc.data()])
-    })
-  }
-
 
   return (
     <>
