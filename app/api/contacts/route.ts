@@ -5,7 +5,6 @@ import useSendMail from "@/hooks/useSendMail";
 
 // Handles POST requests to /api/contacts
 export async function POST(request: Request) {
-
     const body = await request.json()
     const hookContact = useContact()
     const response = await hookContact.save(body)

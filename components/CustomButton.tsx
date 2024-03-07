@@ -1,7 +1,7 @@
 
 
 import { CustomButtonProps } from '@/types'
-import React, { FC } from 'react'
+import { FC } from 'react'
 
 const CustomButton: FC<CustomButtonProps> = ({
   title, containerStyle, handleClick, type

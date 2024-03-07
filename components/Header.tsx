@@ -1,6 +1,5 @@
 
 
-import React from 'react'
 import { HorizontalScroll, Navbar } from '.'
 
 const Header = () => {
