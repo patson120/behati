@@ -1,7 +1,10 @@
+
+
 import useContact from "@/hooks/useContact";
 import { NextResponse } from "next/server";
 import STATUS from "@/utils/status.code"
 import useSendMail from "@/hooks/useSendMail";
+
 
 // Handles POST requests to /api/contacts
 export async function POST(request: Request) {
@@ -20,4 +23,3 @@ export async function POST(request: Request) {
     }
     return NextResponse.json({ success: false, status: STATUS.BAD_REQUEST, result: response }, { status: STATUS.BAD_REQUEST })
 }
-
