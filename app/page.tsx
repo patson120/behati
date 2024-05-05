@@ -37,7 +37,7 @@ const Home = () => {
               <CustomButton
                 title='Commander un produit'
                 containerStyle='black_bgcolor w-[200px] max-sm:w-full max-sm:text-xs h-12 rounded-full text-white text-sm font-bold px-4 mt-2'
-                handleClick={() => { }}
+                handleClick={() => router.push('/commande')}
               />
             </div>
 
@@ -73,7 +73,7 @@ const Home = () => {
                 <CustomButton
                   title='Commander maintenant'
                   containerStyle='yellow_color h-12 max-sm:h-10 max-sm:text-xs rounded-full text-md font-bold px-4'
-                  handleClick={() => { }}
+                  handleClick={() =>  router.push('/commande')}
                 />
 
                 <CustomButton
@@ -122,7 +122,7 @@ const Home = () => {
               <CustomButton
                 title='Commander un produit'
                 containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-6'
-                handleClick={() => { }}
+                handleClick={() =>  router.push('/commande')}
               />
             </div>
           </div>

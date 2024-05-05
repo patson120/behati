@@ -31,13 +31,15 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="h-12 bg-white flex flex-1 justify-center items-center max-sm:px-8">
+      <section 
+        style={{ paddingLeft: '10%', paddingRight: '10%' }}
+      className="h-12 bg-white flex flex-1 justify-center items-center max-sm:px-8">
         <div className="mx-auto max-w-7xl flex flex-1 flex-row justify-between items-center max-sm:text-[10px] max-sm:space-x-3 text-center">
-          <p className="text-md">
+          <p className="text-xs">
             {date.getFullYear()} Tous droits reservés
           </p>
-          <Link href="#" className="text-md">Politiques de confidentialité</Link>
-          <Link href="#" className="text-md">Conditions d&apos;utilisation</Link>
+          <Link href="#" className="text-xs">Politiques de confidentialité</Link>
+          <Link href="#" className="text-xs">Conditions d&apos;utilisation</Link>
         </div>
       </section>
     </footer>

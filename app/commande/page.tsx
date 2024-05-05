@@ -14,7 +14,7 @@ const Commande = () => {
             <div className="container">
                 {/* Section A */}
                 <section className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                    <div className="pt-5 md:pr-8 order-2 md:order-1 mb-10 md:mb-0">
+                    <div className="pt-5 md:pr-8 order-2 md:order-1 m   b-10 md:mb-0">
 
                         <div className="mb-10 flex justify-between">
                             {

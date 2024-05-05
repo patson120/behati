@@ -2,8 +2,11 @@
 'use client'
 
 import { CustomButton } from '@/components'
+import { useRouter } from 'next/navigation'
 
 const PointsVente = () => {
+
+    const router = useRouter()
     return (
         <>
             <div className='container'>
@@ -74,7 +77,7 @@ const PointsVente = () => {
                                 <CustomButton
                                     title='Commander un produit'
                                     containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-6'
-                                    handleClick={() => { }}
+                                    handleClick={() =>  router.push('/commande')}
                                 />
                             </div>
                         </div>

@@ -35,7 +35,7 @@ const Produits = () => {
                             <CustomButton
                                 title='Commander maintenant'
                                 containerStyle='primary_green h-12 max-sm:w-full rounded-full text-sm font-bold px-4'
-                                handleClick={() => { }}
+                                handleClick={() =>  router.push('/commande')}
                             />
                             <CustomButton
                                 title='Contactez-nous'
@@ -82,7 +82,7 @@ const Produits = () => {
                             <CustomButton
                                 title='Commander'
                                 containerStyle='primary_green h-12 w-full md:w-[200px] rounded-full text-sm md:text-md font-bold mt-4 px-4'
-                                handleClick={() => { }}
+                                handleClick={() =>  router.push('/commande')}
                             />
 
                         </div>
@@ -126,7 +126,7 @@ const Produits = () => {
                             <CustomButton
                                 title='Commander'
                                 containerStyle='black_bgcolor text-white h-12 w-full md:w-[200px] rounded-full text-sm font-bold mt-4 px-4'
-                                handleClick={() => { }}
+                                handleClick={() =>  router.push('/commande')    }
                             />
 
                         </div>
@@ -163,7 +163,7 @@ const Produits = () => {
                         <CustomButton
                             title='Commander'
                             containerStyle='primary_green h-12  w-full md:w-1/2 mt-3 rounded-full text-sm font-bold px-4'
-                            handleClick={() => { }}
+                            handleClick={() =>  router.push('/commande')}
                         />
                     </div>
                 </div>
@@ -196,7 +196,7 @@ const Produits = () => {
                             <CustomButton
                                 title='Commander'
                                 containerStyle='primary_green h-12 w-full md:w-[200px] rounded-full text-sm font-bold mt-4 px-4'
-                                handleClick={() => { }}
+                                handleClick={() =>  router.push('/commande')}
                             />
 
                         </div>
@@ -259,7 +259,7 @@ const Produits = () => {
                             <CustomButton
                                 title='Commander un produit'
                                 containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-6'
-                                handleClick={() => { router.push("/contact") }}
+                                handleClick={() =>  router.push('/commande')}
                             />
                         </div>
                     </div>
@@ -279,7 +279,7 @@ const Produits = () => {
                         <CustomButton
                             title='Contactez-nous'
                             containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-10'
-                            handleClick={() => { }}
+                            handleClick={() =>  router.push('/contact')}
                         />
                     </div>
                 </div>
