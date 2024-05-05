@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const handleClick = () => {
     router.push("/commande")
+    closeMenu()
   }
 
   const openMenu = (event: MouseEvent<HTMLButtonElement>) => {
@@ -170,7 +171,7 @@ const Navbar = () => {
             </Link>
             <CustomButton
               title='Commander'
-              containerStyle='black_bgcolor hidden lg:block rounded-full text-white text-sm font-bold px-4 py-2'
+              containerStyle='black_bgcolor rounded-full text-white text-sm font-bold px-4 py-2'
               handleClick={handleClick}
             />
           </div>
