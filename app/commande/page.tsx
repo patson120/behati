@@ -13,8 +13,8 @@ const Commande = () => {
         <>
             <div className="container">
                 {/* Section A */}
-                <section className='grid grid-cols-1 md:grid-cols-2 gap-4  h-w-full'>
-                    <div className="pt-5 pr-8">
+                <section className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                    <div className="pt-5 md:pr-8 order-2 md:order-1 mb-10 md:mb-0">
 
                         <div className="mb-10 flex justify-between">
                             {
@@ -85,7 +85,7 @@ const Commande = () => {
                             />
                         </div>
                     </div>
-                    <div className="p-10 pt-0">
+                    <div className="p-0 md:p-10 pt-0 order-1 md:order-2">
                         <div className='w-auto h-auto '>
                             <img
                                 className='object-cover w-full h-full'
