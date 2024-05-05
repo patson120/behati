@@ -3,13 +3,16 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { CustomButton } from '.'
+import { useRouter } from 'next/navigation'
 import { MouseEvent } from 'react'
+import { CustomButton } from '.'
 
 const Navbar = () => {
 
+  const router = useRouter()
+
   const handleClick = () => {
-    console.log("handleClick");
+    router.push("/commande")
   }
 
   const openMenu = (event: MouseEvent<HTMLButtonElement>) => {
