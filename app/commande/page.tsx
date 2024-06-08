@@ -138,7 +138,7 @@ const Commande = () => {
                                 {/* Numéro de téléphone */}
                                 <span className="text-xs font-medium mb-2 mt-5 block">Numéro de téléphone</span>
                                 <div className="flex rounded-full shadow-sm">
-                                    <input type="number" name="phone" id="phone"
+                                    <input type="tel" name="phone" id="phone"
                                         value={phoneNumber}
                                         onChange={(e) => setPhoneNumber(e.target.value)}
                                         required
