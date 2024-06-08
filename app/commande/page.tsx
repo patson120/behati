@@ -186,9 +186,9 @@ const Commande = () => {
                                 <span className="text-xs font-medium mb-2 mt-5 block">Pays de livraison</span>
                                 <div className="relative">
                                     <select className="block appearance-none w-full border-0 bg-transparent
-                             text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
-                             ring-1 ring-inset ring-gray-300 focus-within:ring-2
-                             focus:outline-none bg-white"
+                                        text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
+                                        ring-1 ring-inset ring-gray-300 focus-within:ring-2
+                                        focus:outline-none bg-white"
                                         id="grid-state">
                                         {
                                             pays.map(pay => <option key={pay.id} value={pay.name}>{pay.name}</option>)
@@ -204,9 +204,9 @@ const Commande = () => {
                                 <span className="text-xs font-medium mb-2 mt-5 block">Région</span>
                                 <div className="relative">
                                     <select className="block appearance-none w-full border-0 bg-transparent
-                             text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
-                             ring-1 ring-inset ring-gray-300 focus-within:ring-2
-                             focus:outline-none bg-white"
+                                        text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
+                                        ring-1 ring-inset ring-gray-300 focus-within:ring-2
+                                        focus:outline-none bg-white"
                                         id="grid-state"
                                         onChange={(e) => setSelectedRegion(e.target.value)}
                                     >
@@ -223,9 +223,9 @@ const Commande = () => {
                                 <span className="text-xs font-medium mb-2 mt-5 block">Ville</span>
                                 <div className="relative">
                                     <select className="block appearance-none w-full border-0 bg-transparent
-                             text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
-                             ring-1 ring-inset ring-gray-300 focus-within:ring-2
-                             focus:outline-none bg-white"
+                                        text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight 
+                                        ring-1 ring-inset ring-gray-300 focus-within:ring-2
+                                        focus:outline-none bg-white"
                                         id="grid-state"
                                         onChange={(e) => setSelectedVille(e.target.value)}
                                     >
@@ -247,9 +247,9 @@ const Commande = () => {
                                         onChange={(e) => { setQuartier(e.target.value) }}
                                         required
                                         className="block flex-1 border-0 bg-transparent rounded-full py-2 px-4 text-gray-900 
-                                    ring-1 ring-inset ring-gray-300 focus-within:ring-2 
-                                    focus-within:ring-inset focus-within:ring-indigo-600
-                                  placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                                            ring-1 ring-inset ring-gray-300 focus-within:ring-2 
+                                            focus-within:ring-inset focus-within:ring-indigo-600
+                                        placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                                         placeholder="Entrez le nom du quartier" />
                                 </div>
 
@@ -322,13 +322,7 @@ const Commande = () => {
                             </div>
                         </div>}
 
-                        {/* {(selectedIndex !== menus.length - 1) && <div className="mt-10">
-                            <CustomButton
-                                title={'Suivant'}
-                                containerStyle='primary_green h-11 w-full rounded-full text-sm font-bold px-4'
-                                handleClick={() => setSelectedIndex(prev => prev + 1)}
-                            />
-                        </div>} */}
+                        
                     </div>
                     <div className="p-0 md:p-10 pt-0 order-1 md:order-2">
                         <div className='w-auto h-auto '>
