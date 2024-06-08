@@ -3,11 +3,42 @@
 
 import { CustomButton, Hero } from "@/components"
 import { useRouter } from "next/navigation"
+import { useEffect } from "react"
 
 
 const Home = () => {
 
   const router = useRouter()
+
+  var data = JSON.stringify({
+    "apikey": "YOUR_APIKEY",
+    "site_id": "YOUR_SITEID",
+    "transaction_id": Math.floor(Math.random() * 100000000).toString(), //
+    "amount": 100,
+    "currency": "XOF",
+    "alternative_currency": "",
+    "description": " TEST INTEGRATION ",
+    "customer_id": "172",
+    "customer_name": "KOUADIO",
+    "customer_surname": "Francisse",
+    "customer_email": "harrissylver@gmail.com",
+    "customer_phone_number": "+225004315545",
+    "customer_address": "Antananarivo",
+    "customer_city": "Antananarivo",
+    "customer_country": "CM",
+    "customer_state": "CM",
+    "customer_zip_code": "065100",
+    "notify_url": "https://webhook.site/d1dbbb89-52c7-49af-a689-b3c412df820d",
+    "return_url": "https://webhook.site/d1dbbb89-52c7-49af-a689-b3c412df820d",
+    "channels": "ALL",
+    "metadata": "user1",
+    "lang": "FR",
+    "invoice_data": {
+      "Donnee1": "",
+      "Donnee2": "",
+      "Donnee3": ""
+    }
+  });
 
   return (
     <>
@@ -73,7 +104,7 @@ const Home = () => {
                 <CustomButton
                   title='Commander maintenant'
                   containerStyle='yellow_color h-12 max-sm:h-10 max-sm:text-xs rounded-full text-md font-bold px-4'
-                  handleClick={() =>  router.push('/commande')}
+                  handleClick={() => router.push('/commande')}
                 />
 
                 <CustomButton
@@ -122,7 +153,7 @@ const Home = () => {
               <CustomButton
                 title='Commander un produit'
                 containerStyle='black_bgcolor h-12 rounded-full text-white text-md font-bold px-6'
-                handleClick={() =>  router.push('/commande')}
+                handleClick={() => router.push('/commande')}
               />
             </div>
           </div>
@@ -148,7 +179,7 @@ const Home = () => {
         </div>
       </section>
 
-    </ >
+    </>
   )
 }
 
