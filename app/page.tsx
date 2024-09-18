@@ -76,9 +76,9 @@ const Home = () => {
         </div>
 
         <div className="h-1/4 w-1/2 max-md:w-full flex-shrink-0 z-0 overflow-hidden max-md:order-1">
-          <img src="/assets/images/rectangle_5.png"
+          <img src="/assets/images/IMG-20240918-WA0124.jpg"
             className="w-full h-full" alt="Produit Camerounais" />
-        </div>
+        </div> 
       </section>
 
       {/* Section B */}
@@ -92,7 +92,7 @@ const Home = () => {
         <div className="flex flex-row max-md:flex-col mt-4 gap-2 max-lg:border-2">
           <div className="h-auto w-1/2 max-md:w-full flex-shrink-0 relative">
             <div className="w-full h-full">
-              <img src="/assets/images/rectangle_7.png"
+              <img src="/assets/images/huile-tournesol-en-bouteille.jpg"
                 className="w-full h-full" alt="Produit Camerounais" />
             </div>
             <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-t from-[#1A191A] z-20"></div>
@@ -117,7 +117,7 @@ const Home = () => {
           </div>
           <div className="h-auto w-1/2 max-md:w-full flex-shrink-0 relative">
             <div className="w-full h-full">
-              <img src="/assets/images/rectangle_8.png"
+              <img src="/assets/images/1000_F_573704401_JjXYvPQbbpA9R30vWKBd6ELeP8hj3hCn.jpg"
                 className="w-full h-full" alt="Produit Camerounais" />
             </div>
             <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-t from-[#1A191A] z-20"></div>

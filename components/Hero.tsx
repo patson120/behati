@@ -17,11 +17,11 @@ const Hero = () => {
             className="w-full h-full" alt="Produit Camerounais" />
         </div>
         <div className="h-full w-1/4 flex-shrink-0">
-          <img src="/assets/images/rectangle_3.png"
+          <img src="/assets/images/IMG-20240918-WA0121.jpg"
             className="w-full h-full" alt="Produit Camerounais" />
         </div>
-        <div className="h-full w-1/4 flex-shrink-0">
-          <img src="/assets/images/rectangle_4.png"
+        <div className="h-full w-1/4 flex-shrink-0 ">
+          <img src="/assets/images/huile-tournesol-en-bouteille-2.png"
             className="w-full h-full" alt="Produit Camerounais" />
         </div>
         <div

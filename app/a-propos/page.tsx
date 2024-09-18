@@ -163,7 +163,7 @@ const Apropos = () => {
             <section className='container my-14 md:my-36 flex gap-4 overflow-x-auto'>
                 <img
                     className='h-[180px] w-[180px] md:h-[284px] md:w-[284px] lg:h-[384px] lg:w-[384px]'
-                    src="/assets/images/rectangle_27.png"
+                    src="/assets/images/huile-tournesol-en-bouteille.jpg"
                     alt="Un plat fait à base de l'huile de tournesol" />
                 <img
                     className='h-[180px] w-[180px] md:h-[284px] md:w-[284px] lg:h-[384px] lg:w-[384px]'

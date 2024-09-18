@@ -49,7 +49,7 @@ const Produits = () => {
 
                 <div
                     style={{
-                        backgroundImage: 'url("/assets/images/rectangle_27.png")',
+                        backgroundImage: 'url("/assets/images/WhatsApp Image 2024-09-18 à 13.15.58_ad048084.jpg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center',
                         backgroundOrigin: 'center',
@@ -108,7 +108,7 @@ const Produits = () => {
                             </p>
 
                             <div className='flex flex-row gap-3'>
-                                <p>A partir de <span className='yellowColor ml-2 text-lg lg:text-3xl font-bold'>4.000 FCFA</span></p>
+                                <p>A partir de <span className='yellowColor ml-2 text-lg lg:text-3xl font-bold'>7.000 FCFA</span></p>
                                 <div className="w-auto">
                                     <select id="country" name="country" autoComplete="country-name"
                                         className="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm 
@@ -135,7 +135,7 @@ const Produits = () => {
                     <div className='w-full h-[300px] md:h-[500px]'>
                         <img
                             className='object-cover w-full h-full'
-                            src="/assets/images/rectangle_27.png"
+                            src="/assets/images/huile-tournesol-en-bouteille.jpg"
                             alt="Un plat fait à base de l'huile de tournesol" />
                     </div>
                 </div>

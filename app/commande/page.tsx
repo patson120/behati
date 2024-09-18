@@ -328,7 +328,7 @@ const Commande = () => {
                         <div className='w-auto h-auto '>
                             <img
                                 className='object-cover w-full h-full'
-                                src="/assets/images/huile-tournesol-en-bouteille.png"
+                                src="/assets/images/huile-tournesol-en-bouteille.jpg"
                                 alt="Un plat fait à base de l'huile de tournesol" />
                         </div>
 

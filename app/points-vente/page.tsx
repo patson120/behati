@@ -29,7 +29,7 @@ const PointsVente = () => {
                     </section>
                     <div className="w-full lg:w-[525px] lg:h-[525px]
                             ex-shrink-0 overflow-hidden">
-                        <img src="/assets/images/tournesol-oil.png"
+                        <img src="/assets/images/huile-tournesol-en-bouteille.jpg"
                             className="w-full h-full" alt="Bouteille d'huile de tournesol" />
                     </div>
                 </div>
