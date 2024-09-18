@@ -330,7 +330,7 @@ const Commande = () => {
                                 className='object-cover w-full h-full'
                                 src="/assets/images/huile-tournesol-en-bouteille.jpg"
                                 alt="Un plat fait à base de l'huile de tournesol" />
-                        </div>
+                        </div>   
 
                         <h1 className='font-bold mt-4'>Nous livrons dans 15 pays dans le monde</h1>
                         <p className='mt-2 text-[11px]'>
